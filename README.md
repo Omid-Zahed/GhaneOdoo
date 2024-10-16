@@ -9,6 +9,6 @@
 ## لازم به یاد اوری است فایل oddo.conf شامل ارتباط به دیتابیس و تنظیمات ان میباشد که شما باید تغییر دهید
 ```
  docker build -t odooapp -t .
- docker run -d -p 8067:8067 --name odoo odooapp
+ docker run -d -p 8017:8017 --name odoo odooapp
 ```
 
